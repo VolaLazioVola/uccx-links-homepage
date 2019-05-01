@@ -1,0 +1,1 @@
+*/3 * * * * /bin/sh -c 'cd /opt/dcloud/uccx-links-homepage && ./update.sh' 2>&1 | /usr/bin/logger -t cron-update-uccx-links-homepage
