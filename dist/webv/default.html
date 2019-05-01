@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dCloud: The Cisco Demo Cloud</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/nubi.css"/>
+        <!-- Navigation Menu Script -->
+        <script type="text/javascript">
+            over = function() {
+                var sfEls = document.getElementById("nav").getElementsByTagName("li");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" over";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" over\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", over);
+        </script>
+    </head>
+    <body>
+        <!-- Header STARTS -->
+        <div class="layoutWrap">
+            <div id="header" class="iwrap">
+                <img src="images/cisco-logo.png" alt="dCloud: The Cisco Demo Cloud" title="Welcome to dCloud: The Cisco Demo Cloud" class="logo" />
+                <ul class="hdrRight">
+                    <li><img src="images/dCloudAw.png" alt="Welcome dCloud: The Cisco Demo Cloud" /></li>
+                    <li>
+                        <span class="leftCorner"></span><a href="#" class="active"><span><img src="images/ico_home.png" alt="Home" title="Home" /></span></a><span class="rightCorner"></span>
+                    </li>
+                    <li class="hdrTxtLink">
+                        <span>&nbsp;</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Banner STARTS -->
+            <div id="innbanner" class="iwrap3">
+                <!-- Menu STARTS -->
+                <div id="menu">
+                    <ul id="nav">
+                        <li><a href ="" style="border:none ">Collaboration Admin Links</a>
+                            <ul>
+                                <li><a href ="https://198.18.133.3/ccmadmin">Ciso Unified Communications Manager (administrator/C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.4/cupadmin">Cisco Unified Communications Manager IM/Presence (administrator/C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.3/elm-admin">Cisco Unified Enterprise License Manager (administrator/C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.5:8443/cuadmin/home.do">Cisco Unity Connection Admin (administrator/C1sco12345)</a></li>
+                                <li><a href ="http://198.18.133.9/WebAdmin/login.aspx">Cisco Unified Enterprise Attendant Console (admin/C1sco12345)</a></li>
+                            </ul>
+                        </li>
+                        <li><a href ="" style="border:none ">Collaboration User Links</a>
+                            <ul>
+                                <li><a href ="directory.html">dCloud Corporate Directory</a></li>
+                                <li><a href ="http://198.18.133.2/owa">dCloud Outlook Web Access ("Username"\C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.3/ucmuser">CUCM User Pages ("Username"\C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.4/cupuser">CUCM IM/P User Pages ("Username"\C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.5:8443/ciscopca/home.do">Unity Connection PCA ("Username"\C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.3:8443/ma/desktop/maLogin.jsp">Manager Assistant Web Configuration</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Menu ENDS -->
+            </div>
+            <!-- Banner ENDS -->
+            <div id="contentWrap">
+                <div style="margin: 4%">
+                    <!-- Page Content Starts -->
+                    <br/>
+                    <h1>dCloud: The Cisco Demo Cloud</h1>
+                    <br/>
+                    <p> </p>
+                    <p>Welcome to dCloud, the Cisco Demo Cloud</p>
+                    <br/>
+                    <p>dCloud, the Cisco demo cloud, is Cisco's next generation demonstration platform  that provides self-service capabilities for the Cisco Field and partners.   dCloud enables anyone, anywhere, anytime to run customizable, supported demonstrations using an internet enabled device with an internet connection and optional endpoints.  From scripted, repeatable demonstrations to fully customized pilots with complete administrative access, dCloud gives you the strategic advantage for any customer scenario.  Learn more about demonstration offerings and find the demonstration that is right for you in our online demo catalog.
+ </p>
+                    <br/>
+                    <!--  Page Content Ends -->
+                </div>
+            </div>
+            <div id="pushFooter"></div>
+        </div>
+        <div id="footer">
+            <div class="supportInfo">
+                If you have questions or encounter an issue that requires support, please contact our support team. Support is available 24 hours a day, five days a week, from Monday 2:00 a.m. GMT (Sunday 6:00 p.m. Pacific Time) through Saturday 2:00 a.m. GMT (Friday 6:00 p.m. Pacific Time). To speak to a support agent call 800 GO-CISCO (within United States and Canada) or +1 408 853-1000 (outside United States and Canada). 
+            </div>
+        </div>
+    </body>
+</html>

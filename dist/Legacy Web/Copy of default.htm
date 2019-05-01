@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+
+
+<head>
+    <title>Cisco's GCD Application Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+  
+ <script type="text/javascript">
+    over = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("li");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" over";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" over\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", over);
+    
+   
+</script>   
+ 
+</head>
+
+<body style="color: #000000">
+<div id="header">
+<img  src="images/vertlines_left.gif" alt="" / class="lft_img" />
+<img src="images/vertlines_rightmask.gif" alt="" / class="rgt_img" />
+
+</div>
+<div id="header2">
+  <img src="images/cisco.png" alt="" />
+ <div id="header3"> GCD Application Dashboard</div>
+</div>
+<div id="menu">
+
+<ul id="nav"><li><a href ="" style="background-color:#d6d3ce; border:none ">Collaboration Admin Links</a>
+<ul><li><a href ="http://ccm-server.democisco.com/ccmadmin">Ciso Unified Communications Manager (ccmadministrator/C1sco12345)</a>
+<li><a href ="https://ccm-server.democisco.com:8443/ccmservice/">Cisco Unified Communications Manager Servicability (ccmadministrator/C1sco12345)</a>
+<li><a href ="https://presence.democisco.com/ccmadmin">Cisco Unified Presence Admin (ccmadministrator/C1sco12345)</a>
+<li><a href ="https://cuc.democisco.com:8443/cuadmin/home.do">Cisco Unity Connection Admin (administrator/C1sco12345)</a>
+<li><a href ="http://10.1.1.21/WebAdmin/login.aspx">Cisco Unified Enterprise Attendant Console (admin/C1sco12345)</a>
+
+
+
+
+</li>
+
+</ul>
+</li>
+<li><a href ="" style="background-color:#d6d3ce; border:none ">Collaboration User Links</a>
+<ul><li><a href ="https://ccm-server.democisco.com/ccmuser">CUCM User Pages ("Username"\C1sco12345)</a>
+<li><a href ="https://presence.democisco.com/ccmuser">CUP User Pages ("Username"\C1sco12345)</a>
+<li><a href ="https://cuc.democisco.com:8443/ciscopca/home.do">Unity Connection PCA ("Username"\C1sco12345)</a>
+<li><a href ="http://10.1.1.20/exchange">Demo Cisco Outlook Web Access ("Username"/C1sco12345)</a>
+<li><a href ="https://ccm-server:8443/ma/desktop/maLogin.jsp">Manager Assistant Web Configuration ("cdickens"/C1sco12345)</a>
+<li><a href ="http://10.1.1.20/demoremote/ClicktoCall.html">Click to Call Demonstration Numbers</a>
+
+</li>
+</ul>
+</li>
+<li><a href ="" style="background-color:#d6d3ce; border:none ">UCC Express Admin Links</a>
+<ul><li><a href ="http://10.1.1.13/appadmin">CUCCX AppAdmin (ccxadmin\C1sco12345)</a>
+<li><a href ="http://10.1.1.13:6293/teamadmin/login.cda">Desktop Administrator (ccxadmin\C1sco12345)</a>
+<li><a href ="http://10.1.1.20/ccx/HTTP-TRIGGER/login.asp">Money Bank HTTP Trigger</a>
+<li><a href ="http://10.1.1.13:6293/cadbe/CAD-BE.jsp">Ciso Agent Desktop Browser Edition ("agent" / C1sco12345)</a>
+<li><a href ="http://10.1.1.13/appadmin/RTR?request_type=reporting">CCX Real Time Reporting (ccxadmin\C1sco12345)</a>
+<li><a href ="http://10.1.1.13/appadmin/Plugins?request_type=plugins.editor">CCX Unified CCX Editor (ccxadmin\C1sco12345)</a>
+<li><a href ="http://10.1.1.18:8088/TUP/QM/Administrator.htm">Qualtiy Management Client Download (vegas1\calabri0')</a>
+<li><a href ="http://10.1.1.17:8087/c3/">WorkForce Management (vegas1\calabri0')</a>
+
+
+
+
+</li>
+
+</li>
+</ul>
+
+
+  </div>
+<div >    
+
+<div id="demobox"> <img src="images/DemoRemote.png" alt="Image of Demokit goes here" /></div>
+
+<div id="dp"><FONT SIZE="3">Demo Remote Network and VPN Requirements:</FONT>
+<UL>
+
+
+<LI>1) Cisco 1811w uses IPSec over UDP and requires the following ports to be open:</li>
+		<LI><LI>* ESP port 50</li>
+		<LI>* UDP port 500</li>
+		<LI>* Port 4500 (NAT)</li>
+<LI><LI>2) When using the Cisco 1811w, avoid the following subnets:</li>
+		<LI><LI>* 10.0.1.0/24</li>
+		<LI>* 10.0.2.0/24</li>
+		<LI>* 10.0.3.0/24</li>
+    		<LI>* 10.0.4.0/24</li>
+		<LI>* 10.1.1.0/24</li>
+<LI><LI>3) If IPSec over UDP does not work, try the Cisco Software VPN Client which utilizes IPSec over</li>
+<LI>TCP (port 443)
+<LI><LI>4) VPN credentials are dynamically generated and displayed in the UI</li>
+<LI><LI>5) You must wait until the demonstration session has started before you can establish your VPN</li>
+<LI>session
+<LI><LI><FONT SIZE="3"> Bandwidth Requirements</FONT>
+<LI><LI>1) Demo Remote requires at least a 768kbps connection (upload and download)</li>
+<LI>2) Audio and video conferences need at least a 1.5Mbps (upload and download)</li>
+<LI>3) Insufficient bandwidth may cause poor voice and video quality, improperly functioning features,</li>
+<LI>and dropped VPN connections</li>
+<LI>4) Users should check connectivity and available bandwidth before using a demo. The Demo Remote</li>
+<LI>UI includes a utility and instructions to perform this test. Refer to the Demo Remote Release Notes</li>
+<LI>and click the test link in the UI to view the Bandwidth Test documentation.</li>
+<P>
+
+  
+  </P>
+  </UL>
+  <BR>
+  <UL >
+
+
+
+
+
+
+</UL>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

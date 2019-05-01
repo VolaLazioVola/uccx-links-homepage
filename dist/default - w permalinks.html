@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dCloud: The Cisco Demo Cloud</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/nubi.css"/>
+        <!-- Navigation Menu Script -->
+        <script type="text/javascript">
+            over = function() {
+                var sfEls = document.getElementById("nav").getElementsByTagName("li");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" over";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" over\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", over);
+        </script>
+    </head>
+    <body>
+        <!-- Header STARTS -->
+        <div class="layoutWrap">
+            <div id="header" class="iwrap">
+                <img src="images/cisco-logo.png" alt="dCloud: The Cisco Demo Cloud" title="Welcome to dCloud: The Cisco Demo Cloud" class="logo" />
+                <ul class="hdrRight">
+                    <li><img src="images/dCloudAw.png" alt="Welcome dCloud: The Cisco Demo Cloud" /></li>
+                    <li>
+                        <span class="leftCorner"></span><a href="#" class="active"><span><img src="images/ico_home.png" alt="Home" title="Home" /></span></a><span class="rightCorner"></span>
+                    </li>
+                    <li class="hdrTxtLink">
+                        <span>&nbsp;</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Banner STARTS -->
+            <div id="innbanner" class="iwrap3">
+                <!-- Menu STARTS -->
+                <div id="menu">
+                    <ul id="nav">
+                        <li><a  ="" style="border:none ">Collaboration Admin Links</a>
+                            <ul>
+                                <li><a href ="https://cucm1/ccmadmin">Ciso Unified Communications Manager (administrator/C1sco12345)</a></li>
+                                <li><a href ="https://cup1/cupadmin">Cisco Unified Communications Manager IM/Presence (administrator/C1sco12345)</a></li>
+                                <li><a href ="https://cucm1/elm-admin">Cisco Unified Enterprise License Manager (administrator/C1sco12345)</a></li>
+                                <li><a href ="https://cuc1:8443/cuadmin/home.do">Cisco Unity Connection Admin (administrator/C1sco12345)</a></li>
+                                <li><a href ="http://198.18.133.9/WebAdmin/login.aspx">Cisco Unified Enterprise Attendant Console (admin/C1sco12345)</a></li>
+                            </ul>
+                        </li>
+                        <li><a  ="" style="border:none ">Collaboration User Links</a>
+                            <ul>
+                                
+                                <li><a href ="http://198.18.133.2/owa">dCloud Outlook Web Access ("Username"\C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.3/ucmuser">CUCM User Pages ("Username"\C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.4/cupuser">CUCM IM/P User Pages ("Username"\C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.5:8443/ciscopca/home.do">Unity Connection PCA ("Username"\C1sco12345)</a></li>
+                                <li><a href ="https://198.18.133.3:8443/ma/desktop/maLogin.jsp">Manager Assistant Web Configuration</a></li>
+                            </ul>
+                        </li>
+			<li><a  ="" style="border:none ">Customer Collaboration - Express Links</a>
+                          <ul>
+                                <li><a href ="https://198.18.133.19/"> UCCX 10.0 (administrator/C1sco12345)</a></li>
+				<li><a href ="https://198.18.133.19:8444/cuic/Login.htmx"> CUIC ("username"/C1sco12345)</a></li>
+				<li><a href ="https://uccx1.dcloud.cisco.com:8445/desktop/"> Finesse Desktop ("username"/C1sco12345)</a></li>
+				<li><a href ="https://uccx1.dcloud.cisco.com:8445/cfadmin/"> Finesse Admin ("administrator"/C1sco12345)</a></li>
+				<li><a href ="https://198.18.133.186:8440/mediasense/"> MediaSense Seach&Play ("username"/C1sco12345)</a></li>
+				<li><a href ="https://198.18.133.18/"> QM (username/calabri0')</a></li>
+				<li><a href ="http://198.18.133.17:8087/c3/"> WFM (username/calabri0')</a></li>
+				<li><a href ="http://sm2-uccx.dcloud.cisco.com/"> Social Miner (administrator/C1sco12345)</a></li>
+				<li><a href ="http://198.18.133.116/riders">RockCoast Riders</a></li>
+				<li><a href ="http://198.18.133.116/finance/">RockCoast Finance</a></li>
+				<li><a href ="http://198.18.133.81/2Ring/DW/"> 2Ring Wallboard Cfg (admin/admin)</a></li>
+				<li><a href ="http://scriptsforms.azurewebsites.net/"> 2Ring Scripts and Forms</a></li>
+
+				<li><a ><div align="center">------CUIC PERMALINKS------</div></a></li>
+  				<li><a href ="https://uccx1.dcloud.cisco.com:8444/cuic/permalink/PermalinkViewer.htmx?viewId=17C9CDDA1000013C14DF592739ED7AED&linkType=htmlType&viewType=Chart"target="_blank">RCR Called Number Chart</a></li>
+				<li><a href ="https://198.18.133.19:8444/cuic/permalink/PermalinkViewer.htmx?viewId=17B2EC4A1000013C01A06B2C39ED7AED&linkType=htmlType&viewType=Grid">RCR Chat Agent Summary</a></li>
+				<li><a href ="https://198.18.133.19:8444/cuic/permalink/PermalinkViewer.htmx?viewId=2A6DD4281000013C2CD7C3B939ED7AED&linkType=htmlType&viewType=Chart">RCR Chat Traffic Analysis</a></li>
+				<li><a href ="https://198.18.133.19:8444/cuic/permalink/PermalinkViewer.htmx?viewId=17BE1B391000013C00CC6B1C39ED7AED&linkType=htmlType&viewType=Chart">RCR Email CSQ Chart</a></li>
+				<li><a href ="https://198.18.133.19:8444/cuic/permalink/PermalinkViewer.htmx?viewId=16F6D5DC1000013C19A25A7439ED7AED&linkType=htmlType&viewType=Grid">RockCoast Riders CSQ Activity Report</a></li>
+				<li><a href ="https://198.18.133.19:8444/cuic/permalink/PermalinkViewer.htmx?viewId=16F607C21000013C1CA8089E39ED7AED&linkType=htmlType&viewType=Grid">RockCoast Riders CSQ Activity Report w Thresholds</a></li>
+				
+				
+                            </ul>  
+                        </li>
+			
+                    </ul>
+                </div>
+                <!-- Menu ENDS -->
+            </div>
+            <!-- Banner ENDS -->
+            <div id="contentWrap">
+                <div style="margin: 4%">
+                    <!-- Page Content Starts -->
+                    <br/>
+                    <h1>dCloud: The Cisco Demo Cloud</h1>
+                    <br/>
+                    <p> </p>
+                    <p>Welcome to dCloud, the Cisco Demo Cloud</p>
+                    <br/>
+                    <p>dCloud, the Cisco demo cloud, is Cisco's next generation demonstration platform  that provides self-service capabilities for the Cisco Field and partners.   dCloud enables anyone, anywhere, anytime to run customizable, supported demonstrations using an internet enabled device with an internet connection and optional endpoints.  From scripted, repeatable demonstrations to fully customized pilots with complete administrative access, dCloud gives you the strategic advantage for any customer scenario.  Learn more about demonstration offerings and find the demonstration that is right for you in our online demo catalog.
+ </p>
+                    <br/>
+                    <!--  Page Content Ends -->
+                </div>
+            </div>
+            <div id="pushFooter"></div>
+        </div>
+        <div id="footer">
+            <div class="supportInfo">
+                 
+            </div>
+        </div>
+    </body>
+</html>
